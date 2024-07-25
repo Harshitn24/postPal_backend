@@ -32,7 +32,7 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors(
     {
-        origin: ["https://post-pal-backend.vercel.app"],
+        origin: ["https://civil-rosalynd-harshitnavadiya-d23fda25.koyeb.app"],
         methods: ["POST","GET"],
         credentials:true
     }
