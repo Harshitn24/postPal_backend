@@ -65,7 +65,7 @@ app.get("/",(req,res)=>{
 
 
 // mongoose setup
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3001;
 mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
