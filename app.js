@@ -33,7 +33,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors(
     {
         origin: ["https://postpal-one.vercel.app"],
-        methods: ["POST","GET"],
+        methods: ["POST","GET","PATCH","PUT"],
         credentials:true
     }
 ));
